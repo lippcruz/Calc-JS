@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora HTML, CSS e JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="calc">
-        <div id="screen">200</div>
-        <div id="keyboard">
-            <button aria-label="Limpar">C</button>
-            <button> </button>
-            <button aria-label="Percentual">%</button>
-            <button aria-label="Divisão">÷</button>
-            <button aria-label="sete">7</button>
-            <button aria-label="oito">8</button>
-            <button aria-label="nove">9</button>
-            <button aria-label="Multiplicação">x</button>
-            <button aria-label="quatro">4</button>
-            <button aria-label="cinco">5</button>
-            <button aria-label="seis">6</button>
-            <button aria-label="Subtração">-</button>
-            <button aria-label="um">1</button>
-            <button aria-label="dois">2</button>             
-            <button aria-label="três">3</button>             
-            <button aria-label="Divisão">+</button>             
-            <button aria-label="zero">0</button>             
-            <button aria-label="Ponto ou Vírgula">.</button>             
-            <button aria-label="Igual">=</button>             
+    <div class="container">
+        <div id="calc">
+            <div id="keyLogo"></div>
+            <div id="screen">3 x 5 = 15</div>
+            <div id="keyBg">
+                <div id="keyboard">
+                    <button aria-label="Limpar" class="largeBtn">C</button>
+                    <button aria-label="Percentual">%</button>
+                    <button aria-label="Divisão">÷</button>
+                    <button aria-label="sete">7</button>
+                    <button aria-label="oito">8</button>
+                    <button aria-label="nove">9</button>
+                    <button aria-label="Multiplicação">x</button>
+                    <button aria-label="quatro">4</button>
+                    <button aria-label="cinco">5</button>
+                    <button aria-label="seis">6</button>
+                    <button aria-label="Subtração">-</button>
+                    <button aria-label="um">1</button>
+                    <button aria-label="dois">2</button>             
+                    <button aria-label="três">3</button>             
+                    <button aria-label="Divisão">+</button>             
+                    <button aria-label="Ponto ou Vírgula">.</button>             
+                    <button aria-label="zero">0</button>             
+                    <button aria-label="Igual" class="colorBtn largeBtn">=</button>             
+                </div>
+            </div>
         </div>
     </div>
 </body>
